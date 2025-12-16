@@ -2,7 +2,7 @@ import streamlit as st
 import preprocessor, helper
 import matplotlib.pyplot as plt
 import seaborn as sns
-#p;rogram run code "python -m streamlit run app.py"
+#program run code "python -m streamlit run app.py"
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
